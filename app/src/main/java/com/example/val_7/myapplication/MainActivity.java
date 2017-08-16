@@ -200,8 +200,6 @@ public class MainActivity extends AppCompatActivity {
         tabT[9] = (TextView) findViewById(R.id.history9);
         tabT[10] = (TextView) findViewById(R.id.history10);
         tabT[11] = (TextView) findViewById(R.id.history11);
-        //git
-        double popo;
     }
 
 }
