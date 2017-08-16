@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.example.val_7.myapplication.MainActivity">
+
+    <TextView
+        android:layout_width="122dp"
+        android:layout_height="34dp"
+        android:text="CryptoGrow"
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_blue_dark"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="385dp"
+        android:layout_height="172dp"
+        android:text="2.00x"
+        android:background="@android:color/holo_green_light"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="73dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/textCoins"
+        android:layout_width="169dp"
+        android:layout_height="28dp"
+        android:text="Coin : 10000 "
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_blue_dark"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="3dp" />
+
+
+    <TextView
+        android:id="@+id/textResult"
+        android:layout_width="173dp"
+        android:layout_height="94dp"
+        android:text="RESULTAT"
+        android:textColor="@android:color/white"
+        android:gravity="center_horizontal|center_vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="460dp"
+        android:layout_marginRight="105dp"
+        android:layout_marginEnd="105dp" />
+
+    <TextView
+        android:id="@+id/betAmount"
+        android:layout_width="84dp"
+        android:layout_height="35dp"
+        android:text="BetAmount"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="38dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp" />
+
+    <EditText
+        android:id="@+id/betting"
+        android:layout_width="128dp"
+        android:layout_height="34dp"
+        android:ems="10"
+        android:text=""
+        android:background="@android:color/darker_gray"
+        android:inputType="numberSigned"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="34dp"
+        android:layout_marginLeft="122dp"
+        android:layout_marginStart="122dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="71dp"
+        android:layout_height="34dp"
+        android:text="Play"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="34dp"
+        android:layout_marginLeft="251dp"
+        android:layout_marginStart="251dp" />
+
+    <TableLayout
+        android:layout_width="373dp"
+        android:layout_height="260dp"
+        tools:layout_editor_absoluteY="245dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="245dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/history0"
+                android:text="Num             Pseudo          Bet                   Stop               Win"
+                android:textColor="@android:color/white"
+            />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/history1"
+                android:text=""
+                android:textColor="@android:color/holo_green_light" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/history2"
+                android:text=""
+                android:textColor="@android:color/holo_green_light" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/history3"
+                android:text=""
+                android:textColor="@android:color/holo_green_light" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/history4"
+                android:text=""
+                android:textColor="@android:color/holo_green_light" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/history5"
+                android:text=""
+                android:textColor="@android:color/holo_green_light" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/history6"
+                android:text=""
+                android:textColor="@android:color/holo_green_light" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/history7"
+                android:text=""
+                android:textColor="@android:color/holo_green_light" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/history8"
+                android:text=""
+                android:textColor="@android:color/holo_green_light" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/history9"
+                android:text=""
+                android:textColor="@android:color/holo_green_light" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/history10"
+                android:text=""
+                android:textColor="@android:color/holo_green_light" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/history11"
+                android:text=""
+                android:textColor="@android:color/holo_green_light" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
+
+
+</android.support.constraint.ConstraintLayout>
