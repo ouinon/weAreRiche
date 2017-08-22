@@ -6,16 +6,12 @@ import android.os.CountDownTimer;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.os.Handler;
 import android.text.method.DigitsKeyListener;
-import android.text.method.KeyListener;
-import android.text.method.ScrollingMovementMethod;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import java.text.DecimalFormat;
 import java.util.Locale;
 import java.util.Random;
 
@@ -25,12 +21,9 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView textResult;
     private TextView textCoins;
-    private EditText etBetting;
 
-    private int bet;
     private double x;
     private double coins = 10000.00;
-    private Handler handler;
 
     private Button button;
     private Button start;
@@ -72,7 +65,6 @@ public class MainActivity extends AppCompatActivity {
         coinAmount();
         button.setText("x");
         button.setEnabled(false);
-        handler = new Handler();
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
