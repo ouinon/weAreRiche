@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <TextView
+        android:layout_width="233dp"
+        android:layout_height="137dp"
+        android:text="CryptoGrow"
+        android:gravity="center_horizontal|center_vertical"
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_blue_dark"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/log"
+        android:layout_width="89dp"
+        android:layout_height="42dp"
+        android:text="Login : "
+        android:textSize="17sp"
+        android:textColor="@android:color/holo_blue_dark"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="187dp" />
+
+    <EditText
+        android:id="@+id/login"
+        android:layout_width="221dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:background="@android:color/darker_gray"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="129dp"
+        android:layout_marginTop="187dp" />
+
+    <TextView
+        android:id="@+id/pass"
+        android:layout_width="87dp"
+        android:layout_height="42dp"
+        android:text="Password :"
+        android:textSize="17sp"
+        android:textColor="@android:color/holo_blue_dark"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="246dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="221dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="129dp"
+        android:layout_marginTop="246dp" />
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="106dp"
+        android:layout_height="61dp"
+        android:text="Register"
+        android:background="@android:color/darker_gray"
+        android:gravity="center_horizontal|center_vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="139dp"
+        android:layout_marginTop="391dp" />
+
+    <TextView
+        android:id="@+id/confpass"
+        android:layout_width="87dp"
+        android:layout_height="42dp"
+        android:text="Confirmation Password : "
+        android:textSize="14sp"
+        android:textColor="@android:color/holo_blue_dark"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="307dp" />
+
+    <EditText
+        android:id="@+id/confirmationpassword"
+        android:layout_width="221dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="129dp"
+        android:layout_marginTop="304dp" />
+
+
+</android.support.constraint.ConstraintLayout>

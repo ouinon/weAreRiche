@@ -7,7 +7,6 @@ import android.text.method.DigitsKeyListener;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 
 /**
  * Created by val-7 on 22/08/2017.
@@ -35,6 +34,13 @@ public class MainLogin extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainLogin.this, MainActivity.class));
+            }
+        });
+
+        signup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainLogin.this, MainSignup.class));
             }
         });
 
